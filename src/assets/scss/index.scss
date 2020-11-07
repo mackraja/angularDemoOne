@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Trade Gothic LT Std bold";
+    src: url("../fonts/tradegothic/TradeGothicLTStd-Bd2.eot");
+    src:
+    url("../fonts/tradegothic/TradeGothicLTStd-Bd2.woff") format("woff"),
+    url("../fonts/tradegothic/TradeGothicLTStd-Bd2.otf") format("opentype"),
+    url("../fonts/tradegothic/TradeGothicLTStd-Bd2.svg") format("svg");
+    }
+    @font-face {
+        font-family: "Trade Gothic LT Std";
+        src: url("../fonts/tradegothic/TradeGothicLTStd.eot");
+        src:
+        url("../fonts/tradegothic/TradeGothicLTStd.woff") format("woff"),
+        url("../fonts/tradegothic/TradeGothicLTStd.otf") format("opentype"),
+        url("../fonts/tradegothic/TradeGothicLTStd.svg") format("svg");
+        }
+        @font-face {
+            font-family: "Trade Gothic LT Std light";
+            src: url("../fonts/tradegothic/TradeGothicLTStd-Light.eot");
+            src:
+            url("../fonts/tradegothic/TradeGothicLTStd-Light.woff") format("woff"),
+            url("../fonts/tradegothic/TradeGothicLTStd-Light.otf") format("opentype"),
+            url("../fonts/tradegothic/TradeGothicLTStd-Light.svg") format("svg");
+            }
+    body {
+        font-family: "Trade Gothic LT Std", sans-serif;
+    }
