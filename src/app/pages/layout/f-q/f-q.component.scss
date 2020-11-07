@@ -1,5 +1,8 @@
+@import '../../../../assets/scss/font-vars.scss';
+@import '../../../../assets/scss/color-vars.scss';
+
 .faq-section {
-    height: auto;
+    height: auto;   
     padding: 30px;
     padding-bottom: 60px;
     
@@ -22,13 +25,13 @@
 .panel-group .panel-heading a:after {
   content: '-';
   float: right;
-  color: #0079D0;
+  color: $navyBlue;
     font-size: 50px;
 }
 
 .panel-group .panel-heading a.collapsed:after {
   content: '+';
-  color: #0079D0;
+  color: $navyBlue;
     font-size: 28px;
 }
 .panel-title {
@@ -36,22 +39,22 @@
         font-size: 16px;
         line-height: 22px;
         letter-spacing: 0.1px;
-        font-family: "Trade Gothic LT Std", sans-serif;
+        font-family: $tradeGothicSans;
         font-weight: 900;
         transition: color 0.3s;
-        color: #4D525A;
+        color: $brightGrey;
         padding:  15px 0 !important;
     }
    
   }
 }
 .panel.panel-default {
-    border-top:  2px solid #E3E1DC;
-    border-bottom:   2px solid #E3E1DC;
+    border-top:  2px solid $wanWhite;
+    border-bottom:   2px solid $wanWhite;
 }
 .container-main{
   // max-width: 1432px;
-  background: #f4f4f4;
+  background: $whiteSmoke;
 }
 h3.h3-bold {
   font-size: 26px;
@@ -60,42 +63,12 @@ h3.h3-bold {
   font-weight: 900;
   color: rgb(77, 82, 90);
   i.fa.fa-question-circle-o {
-    color: #00b5af;
+    color: $irisBlue;
     margin-right: 15px;
     font-size: 48px;
     font-weight: normal;
     
   }
-}
-.dh-icon-question:before {
-  content: '\e922';
-}
-.dh-module-icon {
-  color: #00b5af;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 48px;
-  margin-right: 14px;
-}
-@font-face {
-  font-family: 'dh-myhome';
-  src: url('/assets/fonts/dh-myhome-icons.eot?evoxws');
-  src: url('/assets/dh-myhome-icons.eot?evoxws#iefix') format('embedded-opentype'),
-    url('/assets/fonts/dh-myhome-icons.ttf?evoxws') format('truetype'), url('/assets/fonts/dh-myhome-icons.woff?evoxws') format('woff'),
-    url('/assets/fonts/dh-myhome-icons.svg?evoxws#dh-myhome') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-[class^='dh-icon-'],
-[class*=' dh-icon-'] {
-  font-family: 'dh-myhome', fantasy !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 @media (min-width: 768px) {
 	.container-main {

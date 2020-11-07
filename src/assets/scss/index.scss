@@ -1,5 +1,8 @@
+@import './font-vars.scss';
+@import './color-vars.scss';
+
 @font-face {
-    font-family: "Trade Gothic LT Std bold";
+    font-family: $tradeGothicBold;
     src: url("../fonts/tradegothic/TradeGothicLTStd-Bd2.eot");
     src:
     url("../fonts/tradegothic/TradeGothicLTStd-Bd2.woff") format("woff"),
@@ -7,7 +10,7 @@
     url("../fonts/tradegothic/TradeGothicLTStd-Bd2.svg") format("svg");
     }
     @font-face {
-        font-family: "Trade Gothic LT Std";
+        font-family: $tradeGothic;
         src: url("../fonts/tradegothic/TradeGothicLTStd.eot");
         src:
         url("../fonts/tradegothic/TradeGothicLTStd.woff") format("woff"),
@@ -15,7 +18,7 @@
         url("../fonts/tradegothic/TradeGothicLTStd.svg") format("svg");
         }
         @font-face {
-            font-family: "Trade Gothic LT Std light";
+            font-family: $tradeGothicLight;
             src: url("../fonts/tradegothic/TradeGothicLTStd-Light.eot");
             src:
             url("../fonts/tradegothic/TradeGothicLTStd-Light.woff") format("woff"),
@@ -23,7 +26,7 @@
             url("../fonts/tradegothic/TradeGothicLTStd-Light.svg") format("svg");
             }
     body {
-        font-family: "Trade Gothic LT Std", sans-serif;
+        font-family: $tradeGothicSans;
     }
 
     .dh-container-narrow .nerrow {
@@ -32,7 +35,6 @@
         height: auto;
     }
 
-    
 @media (min-width: 768px) {
 	.container {
 		width: 752px;

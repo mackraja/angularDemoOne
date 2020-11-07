@@ -1,6 +1,8 @@
+@import '../../../../assets/scss/color-vars.scss';
+
 header {
-    background-color: #F4F4F4;
-    border-top: 6px solid #ed711c;
+    background-color: $whiteSmoke;
+    border-top: 6px solid $pumpkin;
     height: 95px;
     display: flex;
     align-items: center;
