@@ -25,3 +25,38 @@
     body {
         font-family: "Trade Gothic LT Std", sans-serif;
     }
+
+    .dh-container-narrow .nerrow {
+        padding-right: 8.3333%;
+        padding-left: 8.3333%;
+        height: auto;
+    }
+
+    
+@media (min-width: 768px) {
+	.container {
+		width: 752px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 972px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1172px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.container {
+		width: 1432px;
+	}
+}
+
+.container {
+     max-width: unset !important; 
+}

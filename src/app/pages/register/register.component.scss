@@ -51,7 +51,7 @@ button:focus,
     height: 2px;
     background: #e0e0e0;
     position: absolute;
-    width: 25%;
+    width: 36%;
     margin: 0 auto;
     left: 0;
    
@@ -98,7 +98,7 @@ span.round-tab i{
 }
 
 .wizard .nav-tabs > li {
-    width: 12%;
+    width: 15%;
 }
 
 .wizard li:after {
@@ -440,6 +440,7 @@ button.default-btn {
     margin-bottom: 40px;
     text-align: center;
     margin-top: 170px;
+    padding: 0 25px;
     .title {
         min-height: 64px;
         font-family: Trade Gothic LT Std;
@@ -528,7 +529,7 @@ h3.h3-bold {
     .wizard .nav-tabs > li {
         width: 30%;
     }
-    .connecting-line[_ngcontent-jrc-c20] {
+    .connecting-line {
         width: 64%;
     }
 }

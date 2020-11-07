@@ -1,13 +1,36 @@
 header {
     background-color: #F4F4F4;
     border-top: 6px solid #ed711c;
-    height: 80px;
+    height: 95px;
     display: flex;
     align-items: center;
     img {
-        max-width: 240px;
+        max-width: 245px;
     }
     .container-fluid{
-        max-width: 1432px;
+       
      }
+}
+@media (min-width: 768px) {
+	header .container-fluid {
+		width: 752px;
+	}
+}
+
+@media (min-width: 992px) {
+	header .container-fluid {
+		width: 972px;
+	}
+}
+
+@media (min-width: 1200px) {
+	header .container-fluid {
+		width: 1172px;
+	}
+}
+
+@media (min-width: 1440px) {
+	header .container-fluid {
+		width: 1432px;
+	}
 }
