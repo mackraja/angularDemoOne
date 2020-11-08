@@ -71,15 +71,30 @@
     }
 }
 
-
-@media (max-width: 767px){
-    .fancy-heading span::after ,    .fancy-heading span::before {
-      display: none;
-    }
-    .footer-section .con-detail {
-        justify-content: left;
-    }
-}
 .pd-16{
     padding: 0 16%;
+}
+@media (max-width: 767px){
+    .pd-16{
+        padding: 0 15px;
+    }
+   .footer-section .con-detail {
+    text-align: left !important;
+    justify-content: left;
+    margin-right: auto;
+    width: 100%;
+  }
+  .fancy-heading {
+    line-height: .5;
+    text-align: center;
+    span {
+        
+        &::before {
+            width: 100px;
+        }
+        &:after {
+            width: 100px;
+        }
+    }
+  }
 }

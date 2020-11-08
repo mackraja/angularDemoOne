@@ -519,6 +519,7 @@ h3.h3-bold {
   }
 }
 
+
 @media (max-width: 767px){
 
     .wifm-module {
@@ -528,8 +529,20 @@ h3.h3-bold {
     }
     .wizard .nav-tabs > li {
         width: 30%;
+        &:nth-child(2) {
+           text-align: center;
+          }
+        &:nth-child(3) {
+         text-align: right;
+        }
     }
     .connecting-line {
-        width: 64%;
+        width: 94%;
+    }
+    h2.o-form-head{
+        font-size: 42px;
+    }
+    .wifm-module {
+        display: none;
     }
 }

@@ -93,3 +93,116 @@ h3.h3-bold {
 		width: 1432px;
 	}
 }
+
+@media (max-width: 767px) {
+  .faq-section {
+    height: auto;
+    padding: 15px;
+    padding-bottom: 60px;
+  }
+}
+
+
+.faq-section .panel-group .panel-heading a:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  top: 24px;
+  transform: rotate(-180deg);
+  transition: transform 0.3s;
+}
+
+
+.faq-section .panel-group .panel-heading a::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  top: 24px;
+ 
+}
+.faq-section .panel-group .panel-heading a.collapsed:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  
+  right: 0;
+  top: 24px;
+  right: 0;
+  top: 24px;
+  transform: rotate(90deg);
+transition: transform 0.3s;
+}
+
+.faq-section .panel-group .panel-heading a.collapsed::before {
+  
+  content: '';
+  display: block;
+  width: 20px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  top: 24px;
+  transform: rotate(180deg);
+transition: transform 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dh-accordion .collapsed .panel-icon::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  transform: rotate(90deg);
+  transition: width 0.3s;
+}
+
+.dh-accordion .panel-icon::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+  transform: rotate(90deg);
+}
+
+.dh-accordion .panel-icon::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 0px;
+  border-bottom: solid 2px #0079D0;
+  position: absolute;
+  bottom: 9px;
+}
